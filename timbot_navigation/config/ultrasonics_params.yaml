@@ -1,0 +1,24 @@
+range_publisher:
+  ros__parameters:
+    ultrasonic_frequency: 15.0
+    view_angle: 0.5 # in radians for visualize
+    min_range: 0.02  # in meters
+    max_range: 4.0  # in meters
+    front_left:
+      topic: 'sensor/range0'
+      Trigger_pin: 7
+      Echo_pin: 25
+      # min_range: 0.02  # in meters
+      # max_range: 4.0  # in meters
+    front:
+      topic: 'sensor/range1'
+      Trigger_pin: 24
+      Echo_pin: 4
+      # min_range: 0.02  # in meters
+      # max_range: 4.0  # in meters
+    front_right:
+      topic: 'sensor/range2'
+      Trigger_pin: 5
+      Echo_pin: 6
+      # min_range: 0.02  # in meters
+      # max_range: 4.0  # in meters
