@@ -1,2 +1,2 @@
 okloko,
-lk,lk,1
+lk,lk,2
